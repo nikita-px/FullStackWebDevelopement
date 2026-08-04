@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- this is lable tag  -->
+        <label for="name" style="font-size: medium; background-color: aquamarine;">JOB APPLICATION</label>
+        <br>
+        <!-- input tag to get the input form the user  -->
+         <label for="name">Enter the Name :</label>
+         <br> 
+            <input type="text" id="name" name="name">
+    </br>
+</br>
+<!-- type is eamil is used to get the email -->
+        <label for="emailid">Enter the Email id:</label>
+        </br>
+        <input type="email" id="emailid" name="emailid">
+ </br>
+</br>
+        <label for="phoneno">Phone:</label>
+        </br>
+        <input type="tel" id="phoneno" name="phoneno">
+ </br>
+</br>
+<label for="file1">Resume:</label>
+        </br>
+        <input type="file" id="file1" name="file1">
+ </br>
+<!-- to enter the date or to select the date we used the type date here  -->
+        <label for="date">Experience (years):</label>
+        </br>
+        <input type="text" id="date" name="date">
+ </br>
+</br>
+
+<label for="occu">Occupation:</label>
+        <select id="occu" name="occu">
+            <option value="student">High School</option>
+            <option value="teacher">Jounior College</option>
+            <option value="engineer">Bacholrs</option>
+            <option value="doctor">Masters</option>
+        </select>
+ </br>
+</br>
+
+<!-- checkbox  -->
+ <fieldset>
+    <legend>Topic of interest:</legend>
+    <input type="checkbox" id="topic1" name="topic1" value="topic1">
+    <label for="topic1">HTML</label>
+    <input type="checkbox" id="topic2" name="topic2" value="topic2">
+    <label for="topic2">CSS</label>
+    <input type="checkbox" id="topic3" name="topic3" value="topic3">
+    <label for="topic3">JavaScript</label>
+ </fieldset>
+
+<!-- type radioto select the input  -->
+        <label for="sex">Availability:</label>
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="male">Full time</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="female">Part time</label>
+
+ </br>
+</br>
+
+<!-- textfield -->
+<label for="text1">Additional Comments:</label>
+        <input type="textArea" id="text1" name="text1">
+
+        </br>
+</br>
+<!-- button is used to  submite the form -->
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>
