@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            background-color: rgb(181, 124, 37);
+            height: 700px;
+            width: 800px;
+            border: 5px solid black;
+            border-radius: 9px;
+
+
+        }
+        #box{
+            background-color: rgb(15, 15, 103);
+            height: 70px;
+            width: 80px;
+            border: 5px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            position: relative;
+            animation-name: rightmovement;
+            animation-duration: 10s;
+ 
+
+        }
+      /* this is where you can add the animation to the code by defining the @keyframes  */
+        @keyframes rightmovement{
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                left:700px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+
+        </div>
+    </div>
+</body>
+</html>
