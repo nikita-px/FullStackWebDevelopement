@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D transition...</title>
+    <link rel="stylesheet" href="tran.css">
+</head>
+<style>
+    .box{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 3px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    /* transition  */
+
+    transition-duration: 10s;
+    transition-timing-function: linear;
+    text-decoration-color: blueviolet;
+    transition-property: all;
+    
+
+    
+}
+
+.box:hover{
+    /* transform: rotate(360deg); */
+
+    /* skew() shrink the object into a particular angle  */
+
+    /* transform: skew(45deg); */
+
+    /* scale the object and change the size of the object .... */
+
+    /* transform: scale(0.6); */
+
+    /* move the object in the x direction  */
+
+    transform: translateX(500px);
+    /* add shadow  */
+
+    box-shadow: 10px 10px 10px rgb(154, 37, 57);
+}
+p{
+    font-size: large;
+    font-weight: 100px;
+    margin: auto;
+}
+</style>
+<body>
+    <div class="box">
+        This is my new box.......
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, perspiciatis?
+    </p>
+</body>
+</html>
