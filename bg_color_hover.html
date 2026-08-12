@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: rgb(2, 2, 84);
+            border: 3px;
+            border-radius: 5px;
+
+            /* let add shadow */
+
+            box-shadow: 60px 10px 500px rgb(66, 11, 52);
+
+            /* where is the transition is applied  */
+
+            transition-property: width;
+            transition-duration: 4s;
+            transition-delay: 1s;
+            transition-timing-function: linear;
+
+            
+        }
+        /* psudo class hover is apply to see the transition */
+
+        .box:hover{
+            width: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
